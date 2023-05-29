@@ -1,0 +1,260 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Yu Gothic';
+}
+
+button
+{
+    cursor: pointer;
+}
+
+body
+{
+    margin: 0;
+    background-color: #49001a;
+}
+
+a, a:visited
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Welcome */
+
+.mainThanks
+{
+    height: 80vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: -4.5em;
+}
+
+.thanksMessage
+{
+    padding-bottom: 2em;
+    background-color: aliceblue;
+}
+
+/* Welcome */
+
+/* Prices */
+
+#lastTable
+{
+    padding-bottom: 20px;
+}
+
+/* Prices */
+
+/* Navigation */
+
+ul
+{
+    list-style-type: none;
+    margin-top: 0;
+    top: 10%;
+    position: absolute;
+    /* overflow-y: scroll; */
+}
+
+li
+{
+    border: #a10038 2px solid;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #740028;
+    color: white;
+}
+
+li:hover
+{
+    background-color: #5c0020;
+    border: #910033 2px solid;
+}
+
+#menu, #exit
+{
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: transparent;
+}
+
+#menu > i, #exit > i
+{
+    top: 10px;
+}
+
+#navigation
+{
+    margin: 0;
+    top: 0px;
+    visibility: hidden;
+    position: fixed;
+    display: inline-block;
+    z-index: 5;
+    height: 100vh;
+    width: 300px;
+    transition: ease 0.3s;
+    background-color: #edf2f4;
+    opacity: 0.1;
+}
+
+#navigation.menuanimation
+{
+    opacity: 1;
+}
+
+/* Navigation */
+
+/* Header */
+
+header
+{
+    background-color: wheat;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+header span
+{
+    transition: ease-out 0.3s;
+}
+
+header:hover span
+{
+    background-color: rgb(202, 75, 75);
+}
+
+h2
+{
+    padding-top: 2px;
+    padding-bottom: 0;
+}
+
+/* Header */
+
+/* Main */
+
+.poolImg
+{
+    width: 90%;
+    height: 90vh;
+    transition: ease-out 0.3s;
+    filter: brightness(90%);
+}
+
+table, td, th
+{
+    border: #ab3961 2px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tablecenter
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main, footer
+{
+    width: 80vw;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#news
+{
+    position: relative;
+    margin-bottom: 3em;
+}
+
+#newsFooter
+{
+    background-color: transparent;
+    width: 80%;
+    padding-top: 30px;
+    clear: both;
+}
+
+.newestNews
+{
+    position: relative;
+    top: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: calc(20% - 1em);
+    height: 35vh;
+    float: left;
+
+    background-color: #ab3961;
+}
+
+.imgForNews
+{
+    width: 90%;
+    height: 70%;
+    margin-top: 1em;
+    margin-right: auto;
+    margin-left: auto;
+
+    filter: brightness(90%);
+    transition: ease-out 0.3s;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.newestNews > h3
+{
+    margin-top: 0;
+}
+
+.description
+{
+    padding: 0 30px 30px 30px;
+}
+
+/* Main */
+
+/* Errors */
+
+.error
+{
+    text-align: center;
+    color: crimson;
+    width: 50vw;
+}
+
+/* Errors */
+
+footer
+{
+    width: 100%;
+    position: relative;
+}
+
+#foot
+{
+    position: absolute;
+    bottom: 0;
+}
+
+footer > p, #foot > p
+{
+    margin-top: 10px;
+    margin-bottom: 0;
+}

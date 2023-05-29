@@ -1,0 +1,60 @@
+.newestNews
+{
+    transition: ease-out 0.3s;
+}
+
+.newestNews:hover .imgForNews
+{
+    filter: brightness(100%);
+}
+
+.newestNews:hover
+{
+    background-color: #963355;
+}
+
+.poolImg:hover
+{
+    filter: brightness(100%);
+}
+
+#indexMenu
+{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 33% 33% 33%;
+}
+
+#indexMenu a button
+{
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    width: calc(100% - 10px);
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: #c64270;
+    border-radius: 2px;
+    transition: ease-out 0.3s;
+}
+
+#indexMenu a button:hover
+{
+    background-color: #953254;
+}
+
+#poolImgInfo
+{
+    padding-top: 20px;
+}
+
+#newsHeader
+{
+    margin-top: 0;
+    padding-top: 0.6em;
+    margin-bottom: 0.6em;
+}

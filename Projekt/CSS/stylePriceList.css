@@ -1,0 +1,21 @@
+#priceList
+{
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+#priceList > div
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#priceList table
+{
+    width: 95%;
+    table-layout: fixed;
+}

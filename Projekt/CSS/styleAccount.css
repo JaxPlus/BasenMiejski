@@ -1,0 +1,121 @@
+header > h2
+{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Menu po lewej */
+
+#menuList
+{
+    position: relative;
+    top: 0;
+    background-color: rgb(197, 165, 171);
+    user-select: none;
+    cursor: pointer;
+    padding-left: 0;
+    padding: 2px;
+}
+
+#menuList > li, #menuList > a > li
+{
+    padding: 3px;
+    border: none;
+    background-color: transparent;
+    margin: 6px 0;
+    padding: 4px;
+    color: rgb(19, 19, 19);
+}
+
+#menuList > li:hover, #menuList > a:hover > li
+{
+    color: rgb(216, 205, 208);
+    background-color: rgb(148, 120, 126);
+}
+
+#menuSide
+{
+    margin-top: 30px;
+    width: calc(20% - 20px);
+    float: left;
+    margin-left: 20px;
+}
+
+/* Menu po lewej */
+
+/* Main content */
+
+#mainContent
+{
+    width: calc(80% - 40px);
+    float: left;
+    background-color: rgb(129, 100, 106);
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 65vh;
+
+    border-radius: 2px;
+}
+
+#helloMessage
+{
+    text-align: center;
+}
+
+/* Main content */
+
+/* Order history */
+
+#history
+{
+    height: calc(65vh - 10px);
+    display: none;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#displayNone
+{
+    display: none;
+}
+
+hr
+{
+    width: 90%;
+}
+
+#infoBuy
+{
+    margin-top: 30%;
+}
+
+/* Order history */
+
+/* Logout button */
+
+#logOutButtonDiv
+{
+    padding-top: 30px;
+    clear: both;
+    height: 100px;
+    position: relative;
+}
+
+#logout
+{
+    font-size: 14px;
+    color: rgb(158, 20, 20);
+    position: relative;
+}
+
+/* Logout button */
+
+/* Footer */
+
+#foot
+{
+    position: absolute;
+    bottom: 0px;
+}

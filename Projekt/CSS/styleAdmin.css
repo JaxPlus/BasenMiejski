@@ -1,0 +1,163 @@
+.adminPanel
+{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding-top: 10px;
+}
+
+textarea
+{
+    resize: none
+}
+
+.adminPanelButtons
+{
+    background-color: aliceblue;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.adminPanelButtons > button
+{
+    width: 100%;
+    font-size: 20px;
+    border-radius: 0;
+    border: 1px rgb(128, 109, 109) solid;
+    background-color: rgb(167, 128, 135);
+    transition: cubic-bezier(1, 0, 0, 1) 100ms;
+}
+
+.adminPanelButtons > button:hover
+{
+    background-color: rgb(129, 100, 105);
+}
+
+.mainThanks
+{
+    top: 0;
+}
+
+.content > div
+{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    top: 1.2em;
+    align-items: center;
+    justify-content: center;
+
+    background-color: aliceblue;
+}
+
+.content
+{
+    padding: 0;
+}
+
+.content [class="startMessage"]
+{
+    display: flex;
+}
+
+.content > div
+{
+    display: none;
+}
+
+/* Content sam w sobie */
+
+.formForNews
+{
+    padding-top: 15px;
+}
+
+.formForNews > form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+    
+    height: 100%;
+}
+
+input, textarea
+{
+    width: 30%;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: solid 2px rgb(212, 225, 237);
+    cursor: text;
+    background-color: rgb(221, 228, 235);
+    transition: ease-out 0.2s;
+}
+
+input:hover, textarea:hover
+{
+    background-color: rgb(187, 199, 210);
+    border: solid 2px rgb(204, 211, 218);
+}
+
+#labelForSportE > input
+{
+    width: min-content;
+    cursor: pointer;
+}
+
+input[type="file"]
+{
+    cursor: pointer;
+}
+
+input[type="submit"]
+{
+    width: 20%;
+    cursor: pointer;
+}
+
+input[value="Usuń"]
+{
+    width: max-content;
+}
+
+/* News */
+
+#fileUploaded
+{
+    margin-top: 15px;
+}
+
+/* Users */
+
+.contentUsers h3
+{
+    padding-top: 10px;
+    margin-top: 0;
+}
+
+.usersTable
+{
+    padding-bottom: 10px;
+    height: 80%;
+    overflow-y: scroll;
+}
+
+.goBack
+{
+    position: absolute;
+    bottom: 0;
+    padding-top: 0;
+
+    right: 30%;
+    left: 30%;
+
+    background-color: wheat;
+}

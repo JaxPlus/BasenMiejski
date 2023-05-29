@@ -1,0 +1,19 @@
+Rzeczy ogólne:
+- Zrób metodę do tworzenia wyników zapytań
+
+Rzeczy z walidacji:
+- Każde sprawdzenie daj do innej metody, -- zrobione
+- Ma to być do rejestracji jak i logowania -> można stworzyć klasę abstrakcyjną mającą wszystkie metody -- zrobione
+- Wyświetlanie błędów też można dać w metody jak i zapamiętywanie danych wprowadzonych -- zrobione
+- Sprawdzanie błędów serwera -- zrobione
+
+Do bazy:
+- Wszędzie gdzie jest $connection -> wstaw jakiś obiekt do sprawdzania tego 
+
+Do CSS'a:
+- Przejrzeć Footery (dać dwa typy - jeden statyczny (100vh) a drugi z position relative)
+- Przejrzeć całego css'a bo niestety trzeba -- zrobione
+- Zamienić id menu i exit na klasy
+
+Next task:
+- zrobić kupowanie ticketów, potem passów
