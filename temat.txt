@@ -1,5 +1,0 @@
-Jasiek: strona internetowa basenu miejskiego
-Andrzej: strona internetowa wyciągu narciarskiego (www.szczyrkowski.pl)
-
-SqlDBD - hasło - B@zyDanych
-
